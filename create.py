@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "INFO: This Microservice is used for adding record to the Database"
+    return "INFO: This Microservice is used for add record to the Database"
 
 @app.route('/create', methods=['POST'])
 def create():
